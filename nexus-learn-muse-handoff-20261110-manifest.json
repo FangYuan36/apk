@@ -1,0 +1,857 @@
+{
+  "archiveName": "nexus-learn-muse-handoff-20261110.zip",
+  "creationTimestamp": "2026-11-10T08:59:07+07:00",
+  "originalRepositoryRoot": "/data/data/com.termux/files/home/nexus-learn",
+  "originalBranch": "main",
+  "headCommit": "b502fa7120cadd460c0e224d67fc5b1d8ac43691",
+  "gitStatusShort": "## main\n M AGENTS.md\n M AGY_REPORT.md\n M CODEX_REVIEW.md\n M DECISIONS.md\n M PLANS.md\n M PROJECT_STATUS.md\n M TASKS.md\n M agent-hub/rqcodex.txt\n M docs/ACCEPTANCE.md\n M docs/AGENT_WORKFLOW.md\n M docs/AI_GOVERNANCE.md\n M docs/API.md\n M docs/ARCHITECTURE.md\n M docs/DATABASE.md\n M docs/OPERATIONS.md\n M docs/PRD.md\n M docs/PRIVACY.md\n M docs/SECURITY.md\n M docs/TESTING.md\n M docs/TRACEABILITY.md\n M docs/superpowers/plans/2026-11-07-nexus-bootstrap.md\n M package-lock.json\n M package.json\n M plugins/nexus-learn-workflow/rules/AGENTS.md\n M plugins/nexus-learn-workflow/skills/handoff-report/SKILL.md\n M src/App.tsx\n M src/domain/contracts.test.ts\n M src/domain/contracts.ts\n M src/styles.css\n?? docs/TASK-NL-002-MATH-LEARNING-CORE-V1.md\n?? docs/agent-handoffs/\n?? docs/strategy/\n?? reports/next-day-campaign/\n?? src/App.test.tsx\n?? src/acceptance/\n?? src/components/\n?? src/content/\n?? src/domain/ai/\n?? src/domain/math/\n?? src/domain/persistence/\n?? src/features/\n?? src/infrastructure/",
+  "dirtyPathCount": 77,
+  "dirtyPaths": [
+    "AGENTS.md",
+    "AGY_REPORT.md",
+    "CODEX_REVIEW.md",
+    "DECISIONS.md",
+    "PLANS.md",
+    "PROJECT_STATUS.md",
+    "TASKS.md",
+    "agent-hub/rqcodex.txt",
+    "docs/ACCEPTANCE.md",
+    "docs/AGENT_WORKFLOW.md",
+    "docs/AI_GOVERNANCE.md",
+    "docs/API.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DATABASE.md",
+    "docs/OPERATIONS.md",
+    "docs/PRD.md",
+    "docs/PRIVACY.md",
+    "docs/SECURITY.md",
+    "docs/TESTING.md",
+    "docs/TRACEABILITY.md",
+    "docs/superpowers/plans/2026-11-07-nexus-bootstrap.md",
+    "package-lock.json",
+    "package.json",
+    "plugins/nexus-learn-workflow/rules/AGENTS.md",
+    "plugins/nexus-learn-workflow/skills/handoff-report/SKILL.md",
+    "src/App.tsx",
+    "src/domain/contracts.test.ts",
+    "src/domain/contracts.ts",
+    "src/styles.css",
+    "docs/TASK-NL-002-MATH-LEARNING-CORE-V1.md",
+    "docs/agent-handoffs/AGY_EXECUTION_BRIEF.md",
+    "docs/agent-handoffs/AGY_OPERATIONAL_100_FINAL_REPAIR_BRIEF.md",
+    "docs/agent-handoffs/AGY_OPERATIONAL_90_BRIEF.md",
+    "docs/agent-handoffs/AGY_OPERATIONAL_WP0_FINAL_REPAIR_BRIEF.md",
+    "docs/agent-handoffs/AGY_WP0_REPAIR_BRIEF.md",
+    "docs/strategy/NEXUS_LEARN_50_PERCENT_ROADMAP.md",
+    "docs/strategy/NEXUS_LEARN_MVP_SCORECARD.md",
+    "docs/strategy/NEXUS_LEARN_OPERATIONAL_90_ROADMAP.md",
+    "docs/strategy/NEXUS_LEARN_OPERATIONAL_90_SCORECARD.md",
+    "reports/next-day-campaign/OPERATIONAL_100_FINAL_CODEX_AUDIT.md",
+    "reports/next-day-campaign/OPERATIONAL_90_FINAL_REPORT.md",
+    "reports/next-day-campaign/WP0_CODEX_VERIFICATION.md",
+    "reports/next-day-campaign/WP0_FINAL_CODEX_ACCEPTANCE.md",
+    "src/App.test.tsx",
+    "src/acceptance/task-nl-002/scoring.acceptance.test.ts",
+    "src/components/math/MathRenderer.test.tsx",
+    "src/components/math/MathRenderer.tsx",
+    "src/content/fixtures/derivative-sign.ts",
+    "src/content/import/preview.test.ts",
+    "src/content/import/preview.ts",
+    "src/content/import/schema.ts",
+    "src/content/math/derivative-applications.ts",
+    "src/domain/ai/learningContext.test.ts",
+    "src/domain/ai/learningContext.ts",
+    "src/domain/math/attempt.ts",
+    "src/domain/math/content-validation/validator.ts",
+    "src/domain/math/index.ts",
+    "src/domain/math/math-domain.test.ts",
+    "src/domain/math/provenance.ts",
+    "src/domain/math/question.ts",
+    "src/domain/math/scoring-policy.ts",
+    "src/domain/math/scoring/scorer.ts",
+    "src/domain/math/taxonomy.ts",
+    "src/domain/persistence/types.ts",
+    "src/features/dashboard/DashboardView.test.tsx",
+    "src/features/dashboard/DashboardView.tsx",
+    "src/features/learning-core/MathLearningView.test.tsx",
+    "src/features/learning-core/MathLearningView.tsx",
+    "src/features/learning-slice.test.tsx",
+    "src/features/learning-slice/LearningSlice.tsx",
+    "src/features/learning-slice/jsdom.d.ts",
+    "src/features/learning-slice/learningSliceLogic.ts",
+    "src/features/learning-slice/types.ts",
+    "src/features/progress/ProgressView.test.tsx",
+    "src/features/progress/ProgressView.tsx",
+    "src/infrastructure/persistence/indexeddb/indexeddbRepository.test.ts",
+    "src/infrastructure/persistence/indexeddb/indexeddbRepository.ts"
+  ],
+  "trackedSourceFilesIncluded": 68,
+  "untrackedSourceFilesIncluded": 48,
+  "generatedHandoffFiles": 1,
+  "totalFilesIncluded": 118,
+  "payloadBytesExcludingManifest": 1134856,
+  "includedFiles": [
+    {
+      "path": ".gitignore",
+      "sourceDisposition": "tracked",
+      "bytes": 398,
+      "sha256": "5051974b14dfaafd56f7ccb3c02ceb19a8f72ffbc151651ad4aa35b6db785661"
+    },
+    {
+      "path": "AGENTS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4973,
+      "sha256": "24fe64f3962f660e5107da13bf5231834098a7d9db81e487239b45edfd509ba5"
+    },
+    {
+      "path": "AGY_REPORT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 76092,
+      "sha256": "2918856c9014ed1445db5e5e21a30c3263a0008d2935a47dc6bf6e29f23f41cf"
+    },
+    {
+      "path": "CODEX_REVIEW.md",
+      "sourceDisposition": "tracked",
+      "bytes": 10431,
+      "sha256": "b3d6897c5ec8a860b0e9a9b368cf83f4a009a8c814823e276ff0b49f698517ce"
+    },
+    {
+      "path": "DECISIONS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 13606,
+      "sha256": "5b0288301ae245f505616fa5fdce03724fa96399ebc58714fc8d2a9a1231ce01"
+    },
+    {
+      "path": "MUSE_HANDOFF_README.md",
+      "sourceDisposition": "generated-in-staging-only",
+      "bytes": 6673,
+      "sha256": "e10ee6294cb8e3f7dff27d6bbf93d6eebaee7bfb64077144d3689bf15ca43f5e"
+    },
+    {
+      "path": "NEXUS_LEARN_PRODUCT_BRIEF_AND_CODEX_PROMPT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 32315,
+      "sha256": "49ac4a17a08ec4098760cb5125f00a8f856edbda77bb1aee9954b23279377b38"
+    },
+    {
+      "path": "PLANS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4640,
+      "sha256": "152ee2c61ae0940e9f3817216fe197bcada6645af3ee4018722859134d7891cd"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 16979,
+      "sha256": "a1169bfc924c1fada7c9e298027dffb18818a29e4b75429815a71b63e4dfa74b"
+    },
+    {
+      "path": "README.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1796,
+      "sha256": "0ba19d7c891953bdeb237bd77c30ab39e38b376a3c01466e400bad1f2bcfc0a7"
+    },
+    {
+      "path": "TASKS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 9851,
+      "sha256": "d0aa4fe50fc71806467ea2b4c11bf28e2f42c94e9a33daa87ed7f580d35335a9"
+    },
+    {
+      "path": "agent-hub/AGENTS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4390,
+      "sha256": "0ec66207ea88f35bc495ecec0de24b62db7e08395b3ab3d471586c9b0f61ea9c"
+    },
+    {
+      "path": "agent-hub/README.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4995,
+      "sha256": "3d72c89e7adbb43d02412a529136fca20e493677bb8d4118121ae6347541a62e"
+    },
+    {
+      "path": "agent-hub/bridge.py",
+      "sourceDisposition": "tracked",
+      "bytes": 25210,
+      "sha256": "ae57d64d3ae23c374e8a7dd495e507f101db97462025bdc7a94637bbb2970bf7"
+    },
+    {
+      "path": "agent-hub/config.example.json",
+      "sourceDisposition": "tracked",
+      "bytes": 477,
+      "sha256": "38b06346c6598dee1e43c7a52324fca9e787b76b511fce3c7ab9efa48266c60c"
+    },
+    {
+      "path": "agent-hub/deepseek_client.py",
+      "sourceDisposition": "tracked",
+      "bytes": 9179,
+      "sha256": "3262a6e27633a489a10a8f692b35333e86de5df8990190cad0e8da430db36980"
+    },
+    {
+      "path": "agent-hub/rqcodex.txt",
+      "sourceDisposition": "tracked",
+      "bytes": 9190,
+      "sha256": "92b9a541fcef19332d80a313dd0891ed82b2098f4a9ec265950e272a804316f2"
+    },
+    {
+      "path": "agent-hub/tests/run_all_tests.py",
+      "sourceDisposition": "tracked",
+      "bytes": 1663,
+      "sha256": "d8f82f8cf609a3fb91baba58b49617749b9f7d5ed1beb9a639b11997702a0148"
+    },
+    {
+      "path": "agent-hub/tests/test_bridge.py",
+      "sourceDisposition": "tracked",
+      "bytes": 9969,
+      "sha256": "849b2fc5117721de4eaf315ebc4f4a8e4b7d0ebecc5f91a1acfc0a53ca5b0c6b"
+    },
+    {
+      "path": "agent-hub/tests/test_deepseek.py",
+      "sourceDisposition": "tracked",
+      "bytes": 3096,
+      "sha256": "9f9a5ddeb400d45531249a32ca6de3059a581095b500de012e7c6c967a845e0a"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "sourceDisposition": "tracked",
+      "bytes": 6169,
+      "sha256": "23d6e5aaba2b75a604c092138fcbac0ce523e1ca10220c72d65bda7cec2e40eb"
+    },
+    {
+      "path": "docs/AGENT_WORKFLOW.md",
+      "sourceDisposition": "tracked",
+      "bytes": 7124,
+      "sha256": "60b00488b1d56264b14218d45b9698e41b6fd4f0fdad1208dfaf6d2b2e2868fa"
+    },
+    {
+      "path": "docs/AI_GOVERNANCE.md",
+      "sourceDisposition": "tracked",
+      "bytes": 5361,
+      "sha256": "8d3696047e205c935a9304231b895ba680b93ad56e7d064a0536dd4a73ef1974"
+    },
+    {
+      "path": "docs/API.md",
+      "sourceDisposition": "tracked",
+      "bytes": 8949,
+      "sha256": "9710b30833a4377b39ee4778b9e88415628246f8326ba90b71a2bc3bf55c4c4c"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sourceDisposition": "tracked",
+      "bytes": 15595,
+      "sha256": "17bd4692b1bf46fa011e63e615b8356f30af7f9db50236b7974c35442b2c015d"
+    },
+    {
+      "path": "docs/DATABASE.md",
+      "sourceDisposition": "tracked",
+      "bytes": 15727,
+      "sha256": "76a058bedce25e2356f95e1a68ca0d6574b914f86fb9d7ef63c994efaff6ec9c"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4470,
+      "sha256": "bcb24dd34df9dea0d24923c2d708afb653bf3da787c0afae089878e6c25bb79e"
+    },
+    {
+      "path": "docs/PRD.md",
+      "sourceDisposition": "tracked",
+      "bytes": 8773,
+      "sha256": "2c8707a245ee72f04810c7c4592326419b200cfed66f964dd5480939c6d3ab63"
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4049,
+      "sha256": "100e74c1f84556efffcdfd3cecd262b4f5c72662d04f7db822c55240f9829875"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "sourceDisposition": "tracked",
+      "bytes": 7795,
+      "sha256": "6864abe8d8748891a2d84d6de1465f325da4ae2ddff0d8c268a4a98117875cce"
+    },
+    {
+      "path": "docs/TASK-NL-002-MATH-LEARNING-CORE-V1.md",
+      "sourceDisposition": "untracked",
+      "bytes": 46945,
+      "sha256": "0d3b7c403f750da4a849b02358db4429a92eaae3be5a25c691d04fba0042a347"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "sourceDisposition": "tracked",
+      "bytes": 8489,
+      "sha256": "7a3ab4b70786c3561b22d93c673cd860c99f6b22d5a3f09f4033ed0119545ef4"
+    },
+    {
+      "path": "docs/TRACEABILITY.md",
+      "sourceDisposition": "tracked",
+      "bytes": 8435,
+      "sha256": "734eb94475a5f10e104f7a146dde2a2f2bdddff01682bba59677af73a23aaf3e"
+    },
+    {
+      "path": "docs/UI_UX.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4553,
+      "sha256": "6e22f4fadd5fe2ca78cef17d45478c97773baa8d4e5fb5aeadd24145887f800c"
+    },
+    {
+      "path": "docs/adr/ADR-001-stack-and-bootstrap-boundaries.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4403,
+      "sha256": "4561c63be4f1358cd6b5d2acc867b0670cd33277825e7bc74aa1d68659022ce9"
+    },
+    {
+      "path": "docs/agent-handoffs/AGY_EXECUTION_BRIEF.md",
+      "sourceDisposition": "untracked",
+      "bytes": 11987,
+      "sha256": "f15bf0327645dbe5ce4823ff59a3e3aa7d972e27b85826b5edcdd20d7a4cae61"
+    },
+    {
+      "path": "docs/agent-handoffs/AGY_OPERATIONAL_100_FINAL_REPAIR_BRIEF.md",
+      "sourceDisposition": "untracked",
+      "bytes": 4849,
+      "sha256": "9908693acfce8257a29ccc040cbeba5ff353e64557637d856f91ce15a964fcf3"
+    },
+    {
+      "path": "docs/agent-handoffs/AGY_OPERATIONAL_90_BRIEF.md",
+      "sourceDisposition": "untracked",
+      "bytes": 9662,
+      "sha256": "19132eb1e0b4081c1150571c0fbb8051b401fac7b39fb59b349b043fe4a51551"
+    },
+    {
+      "path": "docs/agent-handoffs/AGY_OPERATIONAL_WP0_FINAL_REPAIR_BRIEF.md",
+      "sourceDisposition": "untracked",
+      "bytes": 6532,
+      "sha256": "bbe03d0abfbba27edd4865a0ee07fb0c0b273877f3044ef308ffaa4e889cb9c7"
+    },
+    {
+      "path": "docs/agent-handoffs/AGY_WP0_REPAIR_BRIEF.md",
+      "sourceDisposition": "untracked",
+      "bytes": 8073,
+      "sha256": "a69e30aa1b43de89922d86987d26c7b08508ebf0af35420a74bec68e4f54589f"
+    },
+    {
+      "path": "docs/research/COMPETITOR_RESEARCH.md",
+      "sourceDisposition": "tracked",
+      "bytes": 3360,
+      "sha256": "ce77fe99bae065a2d800376c53827832bd0ff4bd8699b7810aa033c5d50d436b"
+    },
+    {
+      "path": "docs/strategy/NEXUS_LEARN_50_PERCENT_ROADMAP.md",
+      "sourceDisposition": "untracked",
+      "bytes": 8448,
+      "sha256": "7fc80ef2e8c904e29a64190e4b0432cc3298ebabb0ae9acb8ab43568010c8137"
+    },
+    {
+      "path": "docs/strategy/NEXUS_LEARN_MVP_SCORECARD.md",
+      "sourceDisposition": "untracked",
+      "bytes": 5262,
+      "sha256": "eb585864c2a87b1508b276a6e7f422e2ada39a79d3a4bba14edbd3980cafc043"
+    },
+    {
+      "path": "docs/strategy/NEXUS_LEARN_OPERATIONAL_90_ROADMAP.md",
+      "sourceDisposition": "untracked",
+      "bytes": 6544,
+      "sha256": "83f0071c1731639112b0b62e7e43914bfe300b3bc724b0b0500050202f2f325e"
+    },
+    {
+      "path": "docs/strategy/NEXUS_LEARN_OPERATIONAL_90_SCORECARD.md",
+      "sourceDisposition": "untracked",
+      "bytes": 2304,
+      "sha256": "911842b9d46345101b53c5f844c0ad5f6ca162af815e1c056a12a992951169d3"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-07-nexus-bootstrap.md",
+      "sourceDisposition": "tracked",
+      "bytes": 6425,
+      "sha256": "b83e69cc5ed746f12a9e77695789edb232479a3bff7449db33acdb40532ed61a"
+    },
+    {
+      "path": "index.html",
+      "sourceDisposition": "tracked",
+      "bytes": 516,
+      "sha256": "a598bee247dafb5334bfe43c7ab616f4eb6fd0eebba7388a74463b16a4aac59e"
+    },
+    {
+      "path": "package-lock.json",
+      "sourceDisposition": "tracked",
+      "bytes": 56119,
+      "sha256": "65b782257b560d2e42b0c1d7a3498c27f9eafb07c827a0e069dbd4125f1e1138"
+    },
+    {
+      "path": "package.json",
+      "sourceDisposition": "tracked",
+      "bytes": 565,
+      "sha256": "ee96a36f9b78b2c002adb8f889e12ea5b2880d1ab2e5214c441e50713520aa41"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/README.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1367,
+      "sha256": "12d2a12f520d4aa0d3f24c31d80689bc0eb1caaf27ff405dbf3d7741c815a20a"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/plugin.json",
+      "sourceDisposition": "tracked",
+      "bytes": 611,
+      "sha256": "ed5aa941f8b3a11656f86184f73e666c8af00be6122a4dcce497a871fb8220b3"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/rules/AGENTS.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1544,
+      "sha256": "77149d57fbf30e5974dd83522266775b59ff5defaa219425a8eaeeec6a3bb335"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/skills/architecture-review/SKILL.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1096,
+      "sha256": "93274f6471550d00e9a4530da2471bbe83928822141c6c6e38fbd7a9f86159fe"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/skills/handoff-report/SKILL.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1148,
+      "sha256": "8f95e3ef526c6dacba0f2e63641d3d70de2b6b66a986bb2cf6c6f5cf516063e7"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/skills/repository-recon/SKILL.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1085,
+      "sha256": "14a0fcd43d872a9e404838cef22fad09972d7ddfbb39d26866294dd668e583b2"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/skills/task-execution/SKILL.md",
+      "sourceDisposition": "tracked",
+      "bytes": 1156,
+      "sha256": "405f92a2e87032194dc58e50db1056d1ea451b28248b35113e341ccd5eb4c672"
+    },
+    {
+      "path": "plugins/nexus-learn-workflow/skills/test-and-regression/SKILL.md",
+      "sourceDisposition": "tracked",
+      "bytes": 926,
+      "sha256": "6b67e7877dd83836d2c0281b2a05ba890f16dd61088c5ad4e7c84f2ae79fec1a"
+    },
+    {
+      "path": "reports/bootstrap/AGY_PLUGIN_BOOTSTRAP_REPORT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 6865,
+      "sha256": "fa38d805708b808cbd0c33891159618a0cd0ea8f0fa08e467df84d287666ba1c"
+    },
+    {
+      "path": "reports/bootstrap/GIT_BASELINE_REPORT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 7172,
+      "sha256": "4683eb31c940671d0258f194e28d45ccebb301c83ea6cda44dcf3dd38d6ced6e"
+    },
+    {
+      "path": "reports/bootstrap/PRE_DISPATCH_RECONCILIATION.md",
+      "sourceDisposition": "tracked",
+      "bytes": 6797,
+      "sha256": "377ab14d200cfb9cd44b83651f7af70a175bed586f6f8e2067e6cefc8f1967d6"
+    },
+    {
+      "path": "reports/bootstrap/PRE_DISPATCH_VERIFICATION.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4891,
+      "sha256": "2fda9547414cb79430aa8645b07caee6e22874732caa9f6604585c4df53f3611"
+    },
+    {
+      "path": "reports/bootstrap/REPOSITORY_RECON.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4958,
+      "sha256": "c7c89496b0167b1ca5a860fef60b05ad19aa6df1a4ea3aace303be9651747945"
+    },
+    {
+      "path": "reports/next-day-campaign/OPERATIONAL_100_FINAL_CODEX_AUDIT.md",
+      "sourceDisposition": "untracked",
+      "bytes": 16581,
+      "sha256": "ce47d2ecd8c9a0109a84fb7240d60fd2b3f4b80ba255cde65922a14b94f3f37e"
+    },
+    {
+      "path": "reports/next-day-campaign/OPERATIONAL_90_FINAL_REPORT.md",
+      "sourceDisposition": "untracked",
+      "bytes": 1922,
+      "sha256": "e34ad09a1759be182a27ba066f0b964afe83a8410cd1182b6fe774115459b99f"
+    },
+    {
+      "path": "reports/next-day-campaign/WP0_CODEX_VERIFICATION.md",
+      "sourceDisposition": "untracked",
+      "bytes": 12462,
+      "sha256": "fa25c25edd9ca87ea328e33a48c107d4f49783500c3511ed5ae4ff096339feef"
+    },
+    {
+      "path": "reports/next-day-campaign/WP0_FINAL_CODEX_ACCEPTANCE.md",
+      "sourceDisposition": "untracked",
+      "bytes": 11123,
+      "sha256": "69e3880be7b5cef46341eab105c496d3128dca7dad22d1db7fc1419e010b39b8"
+    },
+    {
+      "path": "reports/phase0/AGY_AUDIT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 2930,
+      "sha256": "2e5f284f1f7a5048c04dbfd7b049d81d877389c8c9acbc828a3ee10eee56fef9"
+    },
+    {
+      "path": "reports/phase0/CODEX_AUDIT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 16655,
+      "sha256": "19651bef5862bb9ce63f81726dfda5c0c65165bc7117d64feb844aab3c770cb4"
+    },
+    {
+      "path": "reports/phase0/CORRECTION_PLAN.md",
+      "sourceDisposition": "tracked",
+      "bytes": 7541,
+      "sha256": "8bfc13998e2f6f8f7ecb4a2f0dd8c91e5c589aba88728d004e8b81bd0dee6e9c"
+    },
+    {
+      "path": "reports/phase0/FINAL_VERIFICATION.md",
+      "sourceDisposition": "tracked",
+      "bytes": 5608,
+      "sha256": "6474ca1d8d56639a2e41fa67c2e71757868cc477c8c360bbdb4cbe656089902f"
+    },
+    {
+      "path": "reports/phase0/FINDINGS_RECONCILIATION.md",
+      "sourceDisposition": "tracked",
+      "bytes": 4655,
+      "sha256": "6fe68ff22a96c052716e8b3decc027cd11c6211bbb6809996fdd3128f9738481"
+    },
+    {
+      "path": "reports/phase0/REVISED_AUDIT.md",
+      "sourceDisposition": "tracked",
+      "bytes": 8580,
+      "sha256": "33fbaf0c068a51da51017b57f7d11c90324387054dd0ad3eb360f558e1094b16"
+    },
+    {
+      "path": "reports/phase0/TRACEABILITY_REVIEW.md",
+      "sourceDisposition": "tracked",
+      "bytes": 2247,
+      "sha256": "f85d5e40d8d77f6130236a910f178b342e9824b0b150899580c2ab3e19b8f8a0"
+    },
+    {
+      "path": "scripts/run.mjs",
+      "sourceDisposition": "tracked",
+      "bytes": 3426,
+      "sha256": "8d85c3f05039b5e6675ab98226fdaa3c7a5d4047e960cd2fcf61a266376979fc"
+    },
+    {
+      "path": "scripts/test-discovery.d.mts",
+      "sourceDisposition": "tracked",
+      "bytes": 64,
+      "sha256": "ed459933a94ebf75f9c3665b4fbfb064d9b28b92fec2e7925b3503fba8e0bc4a"
+    },
+    {
+      "path": "scripts/test-discovery.mjs",
+      "sourceDisposition": "tracked",
+      "bytes": 489,
+      "sha256": "047882365569cdd46a7cdf9d869817779ebe53eec415413722ab58625af05f53"
+    },
+    {
+      "path": "src/App.test.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 3436,
+      "sha256": "39456d23a164d64b1f4729a94529b2b1f826feb8fd619aeb61d9727ec9881fbb"
+    },
+    {
+      "path": "src/App.tsx",
+      "sourceDisposition": "tracked",
+      "bytes": 4780,
+      "sha256": "32eb36b075bc0b8d764a7d1e41eeeb98fda3850af3de9ee7be98a1e4ae39785e"
+    },
+    {
+      "path": "src/acceptance/task-nl-002/scoring.acceptance.test.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 13205,
+      "sha256": "7449b77a783a3f14d66799792344e099164d5ae32dc0343fd63f15cb5c192dd1"
+    },
+    {
+      "path": "src/components/math/MathRenderer.test.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 8124,
+      "sha256": "129c74842441afca942b81777089cc4d031af12a0ff234c0337ad6929e18571c"
+    },
+    {
+      "path": "src/components/math/MathRenderer.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 13406,
+      "sha256": "ddb2b36b28521a2be56d711d3844b06556e51cbc418affb6a811d0f8161bd5e2"
+    },
+    {
+      "path": "src/content/fixtures/derivative-sign.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 8603,
+      "sha256": "1a64c5716bf6c784c36664cc9334fb3683d39bace9d4f5ac562d2bdc5c5ac6b9"
+    },
+    {
+      "path": "src/content/import/preview.test.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 5675,
+      "sha256": "54d87d015a665b2e7a2ff5c651db9e3275476a2cf7b53b5c06b47238ad721f6c"
+    },
+    {
+      "path": "src/content/import/preview.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 9516,
+      "sha256": "c978395efa09e074c7379687f1c109beca54a8ab9ca84c2866fb3db7edb878ca"
+    },
+    {
+      "path": "src/content/import/schema.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 1863,
+      "sha256": "3be882d834850949be8c52221bfd1d089644b0b299fc05ab8e59681d09246ead"
+    },
+    {
+      "path": "src/content/math/derivative-applications.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 24226,
+      "sha256": "8ea61f299ea8c09fd209a3d5a52ce110e76fbac885b447fb3994cd068aca9ec5"
+    },
+    {
+      "path": "src/domain/ai/learningContext.test.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 3100,
+      "sha256": "d3242c1908cc5b6549126891101036a9e1d79bb9c8c3271bf2efafb6a2d7905f"
+    },
+    {
+      "path": "src/domain/ai/learningContext.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 5372,
+      "sha256": "841dd732f8e8e9bb6a75088956b2629301c336c68a4199cecb1eaeaabda5e56e"
+    },
+    {
+      "path": "src/domain/contracts.test.ts",
+      "sourceDisposition": "tracked",
+      "bytes": 9240,
+      "sha256": "7dff78b213167e54443b6975622a4df14957caf0a35ada85abfa3e435f333860"
+    },
+    {
+      "path": "src/domain/contracts.ts",
+      "sourceDisposition": "tracked",
+      "bytes": 13906,
+      "sha256": "af2e5a13ff5cf54383b4002fa544a801cf6641146390fe8aeed520865982e080"
+    },
+    {
+      "path": "src/domain/math/attempt.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 12317,
+      "sha256": "45b03a2889c37f3a445eab3ee6bc454bcfa205f6e158000d2722d45f09ca6185"
+    },
+    {
+      "path": "src/domain/math/content-validation/validator.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 19148,
+      "sha256": "10eeddd4005027fc42ad42db31b677a76a6ded7390337df67a434ca3e4350870"
+    },
+    {
+      "path": "src/domain/math/index.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 2339,
+      "sha256": "a7538da8b48aa19e04686116df4583c197da13cf3c41122029d4b4104ab318b7"
+    },
+    {
+      "path": "src/domain/math/math-domain.test.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 67604,
+      "sha256": "3a80075172536e63f77aacc21b23f0725b65e75f93f62c70a38356584767ccee"
+    },
+    {
+      "path": "src/domain/math/provenance.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 8339,
+      "sha256": "9e0200ca523efced1e25b518183571111824d2a72947925aa24134ef7ad20580"
+    },
+    {
+      "path": "src/domain/math/question.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 12343,
+      "sha256": "3ee5b0e0a8da483fcfd01a57d46faad729a20cfa010ca93406a31a5ea31e38c3"
+    },
+    {
+      "path": "src/domain/math/scoring-policy.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 8130,
+      "sha256": "89dad278e9504b944eed93f859b461845a9837190d704d49f7de0dc92ed27a4a"
+    },
+    {
+      "path": "src/domain/math/scoring/scorer.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 19047,
+      "sha256": "b1bac0538c9941fd04ea28b93d7688f86d5e797c913ae52036658039cacd87a5"
+    },
+    {
+      "path": "src/domain/math/taxonomy.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 6575,
+      "sha256": "9de87daa4739654413b38dd2c8a054a169d8698ce6d87895ae2518a04492b177"
+    },
+    {
+      "path": "src/domain/persistence/types.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 2173,
+      "sha256": "d58dc61e3d6fe67007b2756a4cda30bfa64265bfda83d4e3c65481f20c9351af"
+    },
+    {
+      "path": "src/features/dashboard/DashboardView.test.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 3459,
+      "sha256": "ce9171c8f73bf5d676c155392f9f6a7b2345781ab4864284b6d61e74267ab298"
+    },
+    {
+      "path": "src/features/dashboard/DashboardView.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 6786,
+      "sha256": "e9e0d9eaf75dd6c0a5c049d7ea65d87030049b019a2c2ec760a1122222b5847a"
+    },
+    {
+      "path": "src/features/learning-core/MathLearningView.test.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 18293,
+      "sha256": "bb9afd02f5af1cb49fc5abff73b1894492a8d8776994581b121ffe972ce6c39f"
+    },
+    {
+      "path": "src/features/learning-core/MathLearningView.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 35381,
+      "sha256": "b659b050d63ed5919583fee923f4efd1c5a2cb8f58d8f1cf72fc98337db3f023"
+    },
+    {
+      "path": "src/features/learning-slice.test.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 27356,
+      "sha256": "0b0cd6820e438ea71530a2fb90cfcebd7126c9dad93b9435ee3ab32bfad4f89c"
+    },
+    {
+      "path": "src/features/learning-slice/LearningSlice.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 22989,
+      "sha256": "2d5c85adc18c0cae5cce6f0cc5456e2917dd67b74614aa235c52db115a32a3e6"
+    },
+    {
+      "path": "src/features/learning-slice/jsdom.d.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 491,
+      "sha256": "6094282303c35a0863dac1fe52ecc9f69509c7e85d145c83e46d0fffb82a07da"
+    },
+    {
+      "path": "src/features/learning-slice/learningSliceLogic.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 4829,
+      "sha256": "b6dc46fa81fca0ca2b764c681c9dbbd1059b3e8b0d4da50877776b77822bd846"
+    },
+    {
+      "path": "src/features/learning-slice/types.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 1851,
+      "sha256": "3d0672ee809cf0627d20f1dea167599f37f616c19e0708ad7c8708cbf2779129"
+    },
+    {
+      "path": "src/features/progress/ProgressView.test.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 3169,
+      "sha256": "4b09365a2460209cecff5f0f74f184735a649e149b2c80698108631e021c1662"
+    },
+    {
+      "path": "src/features/progress/ProgressView.tsx",
+      "sourceDisposition": "untracked",
+      "bytes": 7857,
+      "sha256": "40ee08f7157e5b2616720058257fa2d4cf559cfc65b58433a5450ac698389f04"
+    },
+    {
+      "path": "src/infrastructure/persistence/indexeddb/indexeddbRepository.test.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 9934,
+      "sha256": "0e72f387a83790b4b9bb54291ee02ec27a09e123dc878c29ddfbf1bcaae4b03c"
+    },
+    {
+      "path": "src/infrastructure/persistence/indexeddb/indexeddbRepository.ts",
+      "sourceDisposition": "untracked",
+      "bytes": 17187,
+      "sha256": "eaaae10b119d1aef6bcd2c07ef2126df3d6fb427657d8345a17369ecfeb5c0f8"
+    },
+    {
+      "path": "src/main.tsx",
+      "sourceDisposition": "tracked",
+      "bytes": 232,
+      "sha256": "055735c1f2a805ceeca8a1376b884c7a8ae1b9d69ad42753b2d23b4e277bfebb"
+    },
+    {
+      "path": "src/styles.css",
+      "sourceDisposition": "tracked",
+      "bytes": 24608,
+      "sha256": "7bf3cc115f4594cb2183fe636128ff3adc8699e53bee198a614c6f32552070e3"
+    },
+    {
+      "path": "tsconfig.json",
+      "sourceDisposition": "tracked",
+      "bytes": 526,
+      "sha256": "af38e9ab5cccee73633b7df57b4d8f655c784fbfff1500eadfb66bed94ffb7e4"
+    },
+    {
+      "path": "vite.config.ts",
+      "sourceDisposition": "tracked",
+      "bytes": 136,
+      "sha256": "0709465427668ae85ef999f63762d7a06fd92962363fe8cc142ad656d3548115"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".git/",
+      "reason": "Git metadata/history excluded; filesystem content is included",
+      "fileCount": 139,
+      "bytes": 272916
+    },
+    {
+      "path": "dist/",
+      "reason": "generated build output",
+      "fileCount": 18,
+      "bytes": 3058377
+    },
+    {
+      "path": "node_modules/",
+      "reason": "reinstallable; restore with npm ci",
+      "fileCount": 2168,
+      "bytes": 99702876
+    },
+    {
+      "path": "agent-hub/__pycache__/",
+      "reason": "Python bytecode cache",
+      "fileCount": 2,
+      "bytes": 50538
+    },
+    {
+      "path": "agent-hub/task_state.json",
+      "reason": "Agent Hub runtime task state"
+    },
+    {
+      "path": "agent-hub/processed_tasks.jsonl",
+      "reason": "Agent Hub runtime processing state"
+    },
+    {
+      "path": "agent-hub/chung.txt",
+      "reason": "local Agent Hub runtime interaction artifact"
+    },
+    {
+      "path": "agent-hub/logagy.txt",
+      "reason": "private/local runtime log"
+    },
+    {
+      "path": "agent-hub/logds.txt",
+      "reason": "private/local runtime log"
+    },
+    {
+      "path": "agent-hub/tests/__pycache__/",
+      "reason": "Python bytecode cache",
+      "fileCount": 2,
+      "bytes": 19421
+    }
+  ],
+  "sanitizedFiles": [],
+  "symlinksSkipped": [],
+  "archiveSha256": "813c157f7a874144be11c771379fd9f77ec3735cec50de9c2dc97fd1915977c2",
+  "archiveSha256Note": "Archive SHA-256 is in adjacent sidecar/external manifest; embedding it inside the archive is self-referential.",
+  "manifestSelfHashNote": "Embedded manifest cannot contain its own SHA-256 without self-reference; external manifest records embeddedManifestSha256.",
+  "secretScanNotes": "High-confidence token/private-key/JWT/database-credential scans found no real credentials. Credential-like string in agent-hub/tests/test_deepseek.py is an explicitly synthetic fake-key fixture tested by test_7_log_does_not_contain_mock_api_key; values are not copied into this manifest.",
+  "archiveSizeBytes": 395110,
+  "embeddedManifestSha256": "7b760e1301d091852c232d64944848a9348fb40035e43bc7035e17f9879d6a0f"
+}
